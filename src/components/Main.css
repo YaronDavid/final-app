@@ -1,0 +1,53 @@
+.imageM{
+    width: 20vw;
+    height: 20vh;
+    margin: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 30px;
+}
+
+.flexOne{
+    flex: 1;
+    padding-left: 4vw;
+}
+
+.flexEmpty{
+    flex: 1
+}
+
+.flexButton{
+    flex: 1;
+    padding-left: 3vw;
+}
+
+.btn, .title{
+    margin: 0 auto ;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.item{
+    margin: 0 1vw;
+    background-color: #F4CE14;
+    border-radius: 15px;
+}
+
+.imageBanner{
+    margin-top: 2vh;
+}
+
+.item h2{
+    margin: 2vh 10vw;
+}
+
+.item p{
+    padding: 0 10px ;
+}

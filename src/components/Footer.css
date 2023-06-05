@@ -1,0 +1,21 @@
+.imgF{
+    width: 15vw;
+    height: 30vh;
+    margin-left: 15px;
+    margin-top: 6vh;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.flexF{
+    display: flex;
+    gap: 5vw
+}
+
+.gridF{
+    width: 50vw;
+}
+
+#footer{
+    background-color: #495E57;
+}
