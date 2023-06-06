@@ -10,7 +10,7 @@ export default function header() {
           <h1>Little Lemon</h1>
           <h4>Chicago</h4>
           <p><LoremIpsum p={1}/></p>
-          <button>Reserve a table</button>
+          <button><a href="/booking" className='noDecoration colorWhite'>Reserve a table</a></button>
         </div>
         <div className='flex'>
           <img id="logoH" src={logoH}/>

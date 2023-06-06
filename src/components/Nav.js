@@ -8,12 +8,12 @@ export default class Nav extends Component {
         <nav id="nav" className='flex'>
           <img id="logoNav" src={logo}/>
           <div className="list flex">
-            <a href="#header">Presentation</a>
-            <a href="#main">Order</a>
-            <a href="#footer">Contact us</a>
+            <a className="navItem noDecoration" href="/">Presentation</a>
+            <a className='navItem noDecoration' href="#main">Order</a>
+            <a className='navItem noDecoration' href="#footer">Contact us</a>
           </div>
           <div className='login flex'>
-            <button class="loginB">Login</button>
+            <button className="loginB">Login</button>
           </div>
         </nav>
     )

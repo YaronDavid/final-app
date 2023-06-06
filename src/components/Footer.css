@@ -9,13 +9,17 @@
 
 .flexF{
     display: flex;
-    gap: 5vw
+    gap: 5vw;
 }
 
 .gridF{
-    width: 50vw;
+    width: 25vw;
 }
 
 #footer{
     background-color: #495E57;
+}
+
+.noColor{
+    color: black;
 }

@@ -22,11 +22,10 @@
     background-color: #495E57;
 }
 
-a{
+.navItem{
     margin: auto;
     font-family: 'Signika Negative', sans-serif;
     font-size: 2rem;
-    text-decoration: none;
     color: white;
 }
 
@@ -41,6 +40,9 @@ a{
     width: 60%;
     height: 60%;
     margin: auto;
-    background-color: #F4CE14;
     border-radius: 10px;
+}
+
+.noDecoration{
+    text-decoration: none;
 }
